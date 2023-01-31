@@ -27,12 +27,12 @@
         }
     },
     "require": {
-        "php": ">=7.2",
+        "php": ">=8.0",
         "ext-swoole": ">=4.5",
-        "hyperf/framework": "3.0.*",
-        "hyperf/di": "3.0.*",
+        "hyperf/framework": "^3.0",
+        "hyperf/di": "^2.0",
         "symfony/var-dumper": "^5.0",
-        "hyperf/command": "3.0.*"
+        "hyperf/command": "^3.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.9",
