@@ -35,7 +35,7 @@ class Dumper
      * @param  mixed  $value
      * @return void
      */
-    public function dump($value)
+    public function dump(mixed $value): void
     {
         if (class_exists(CliDumper::class)) {
             $data = (new VarCloner)->cloneVar($value);

@@ -25,12 +25,12 @@ class DumpServerCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'dump-server {--format=cli : The output format (cli,html).}';
+    protected string $signature = 'dump-server {--format=cli : The output format (cli,html).}';
 
     /**
      * @var DumpServer $server
      */
-    protected $server;
+    protected DumpServer $server;
 
     public function __construct(string $name = null)
     {

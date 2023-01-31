@@ -22,14 +22,14 @@ class RequestContextProvider implements ContextProviderInterface
      *
      * @var Request|null
      */
-    private $currentRequest;
+    private ?Request $currentRequest;
 
     /**
      * The variable cloner.
      *
      * @var \Symfony\Component\VarDumper\Cloner\VarCloner
      */
-    private $cloner;
+    private VarCloner $cloner;
 
     /**
      * RequestContextProvider constructor.
