@@ -1,5 +1,5 @@
 {
-    "name": "qiutuleng/hyperf-dump-server",
+    "name": "szualang/hyperf-dump-server",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -29,15 +29,15 @@
     "require": {
         "php": ">=7.2",
         "ext-swoole": ">=4.5",
-        "hyperf/framework": "^2.0",
-        "hyperf/di": "^2.0",
+        "hyperf/framework": "3.0.*",
+        "hyperf/di": "3.0.*",
         "symfony/var-dumper": "^5.0",
-        "hyperf/command": "^2.0"
+        "hyperf/command": "3.0.*"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.14",
+        "friendsofphp/php-cs-fixer": "^3.9",
         "phpstan/phpstan": "^0.12",
-        "hyperf/testing": "^2.0",
+        "hyperf/testing": "3.0.*",
         "swoole/ide-helper": "dev-master"
     },
     "config": {
